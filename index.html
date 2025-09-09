@@ -21,6 +21,10 @@
             opacity: 1;
             transform: translateY(0);
         }
+        /* Style for the policy sections */
+        .policy-section {
+            transition: all 0.5s ease-in-out;
+        }
     </style>
 </head>
 <body class="bg-slate-900 text-gray-200">
@@ -59,36 +63,26 @@
                 <h2 class="text-3xl font-bold text-center mb-12 text-white fade-in-section">A Complete Tech Ecosystem</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
-                    <!-- Dev Section -->
                     <div class="bg-slate-800 p-8 rounded-xl shadow-lg fade-in-section" style="transition-delay: 100ms;">
                         <h3 class="text-2xl font-semibold mb-3 text-green-400">🔹 Dev Section</h3>
                         <p class="text-gray-400">The creative hub where our R&D team designs, tests, and develops new smart devices and solutions. This is where innovation happens and ideas turn into real products.</p>
                     </div>
-
-                    <!-- Teacher Section -->
                     <div class="bg-slate-800 p-8 rounded-xl shadow-lg fade-in-section" style="transition-delay: 200ms;">
                         <h3 class="text-2xl font-semibold mb-3 text-green-400">🔹 Teacher Section</h3>
                         <p class="text-gray-400">A dedicated space for experienced mentors specializing in coding, circuits, and IoT to share expertise, guide learners, and provide hands-on training.</p>
                     </div>
-                    
-                    <!-- Student Section -->
                     <div class="bg-slate-800 p-8 rounded-xl shadow-lg fade-in-section" style="transition-delay: 300ms;">
                         <h3 class="text-2xl font-semibold mb-3 text-green-400">🔹 Student Section</h3>
                         <p class="text-gray-400">Affordable learning for enthusiasts at just ₹500/month. Get access to structured paths, mentorship, and practical exposure to real-world projects.</p>
                     </div>
-
-                    <!-- Tech Library -->
                     <div class="bg-slate-800 p-8 rounded-xl shadow-lg fade-in-section" style="transition-delay: 400ms;">
                         <h3 class="text-2xl font-semibold mb-3 text-green-400">🔹 Tech Library</h3>
                         <p class="text-gray-400">Rent sensors, microcontrollers, books, and more for only ₹100/month. We make hands-on learning accessible to everyone, regardless of budget.</p>
                     </div>
-
-                    <!-- Main Store -->
                     <div class="bg-slate-800 p-8 rounded-xl shadow-lg fade-in-section" style="transition-delay: 500ms;">
                         <h3 class="text-2xl font-semibold mb-3 text-green-400">🔹 Main Store</h3>
                         <p class="text-gray-400">The commercial arm where our branded, R&D-developed products will be sold. Talented students and teachers can also feature their creations here.</p>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -104,7 +98,60 @@
                 </div>
             </div>
         </section>
+
+        <!-- NEW: Privacy Policy Section -->
+        <section id="privacy" class="py-20 policy-section hidden">
+            <div class="container mx-auto px-6">
+                 <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-white mb-6">Privacy Policy</h2>
+                    <div class="space-y-4 text-gray-400">
+                        <p><strong>Last Updated: September 9, 2025</strong></p>
+                        <p>Circuit Breakers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our website and services.</p>
+                        
+                        <h3 class="text-xl font-semibold text-white pt-4">1. Information We Collect</h3>
+                        <p>We collect information you provide directly to us, such as your name, email address, and phone number when you sign up for our services or contact us. When you make a payment, we use a third-party payment processor (Razorpay) and do not store your sensitive financial details like credit card numbers.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">2. How We Use Your Information</h3>
+                        <p>We use the information we collect to provide, maintain, and improve our services, process transactions, send you transactional information including confirmations and invoices, and communicate with you about our platform.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">3. Information Sharing</h3>
+                        <p>We do not sell your personal information. We may share information with third-party vendors and service providers that perform services for us, such as payment processing. We only share the information necessary for them to perform their functions.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">4. Contact Us</h3>
+                        <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:pushkarbose1@gmail.com" class="text-green-400 hover:underline">pushkarbose1@gmail.com</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <!-- NEW: Terms of Service Section -->
+        <section id="terms" class="py-20 bg-slate-800 policy-section hidden">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-white mb-6">Terms of Service</h2>
+                    <div class="space-y-4 text-gray-400">
+                        <p><strong>Last Updated: September 9, 2025</strong></p>
+                        <p>By accessing or using the services of Circuit Breakers, you agree to be bound by these Terms of Service.</p>
+                        
+                        <h3 class="text-xl font-semibold text-white pt-4">1. Description of Services</h3>
+                        <p>Circuit Breakers provides an educational and e-commerce platform focused on electronics and IoT. Our services include monthly subscriptions to our Student Section and Tech Library, as well as products for sale in our Main Store.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">2. Payments and Subscriptions</h3>
+                        <p>Fees for our subscription services (Student Section, Tech Library) are billed on a monthly basis. All payments are processed through our third-party payment gateway, Razorpay.</p>
+                        
+                        <h3 class="text-xl font-semibold text-white pt-4">3. Refund and Cancellation Policy</h3>
+                        <p>All payments for digital services, including monthly subscriptions to the Student Section and Tech Library, are final and **non-refundable**. You may cancel your subscription at any time, but no refunds will be provided for partial months.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">4. Product Sales and Shipping</h3>
+                        <p>Our Main Store will feature products for sale. At this time, we are primarily focused on digital services and educational content. The sale and shipping of physical products are not yet active. Policies regarding physical product returns, refunds, and shipping will be made available when the Main Store is fully operational.</p>
+
+                        <h3 class="text-xl font-semibold text-white pt-4">5. Governing Law</h3>
+                        <p>These Terms shall be governed by the laws of India, without regard to its conflict of law provisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
         <section id="contact" class="py-20">
             <div class="container mx-auto px-6 text-center">
@@ -126,7 +173,10 @@
     <footer class="bg-slate-900 border-t border-slate-700">
         <div class="container mx-auto px-6 py-8 text-center text-gray-400">
             <p>&copy; 2025 Circuit Breakers. All Rights Reserved.</p>
-            <p class="text-sm mt-2">Privacy Policy | Terms of Service</p>
+            <p class="text-sm mt-2">
+                <a href="#privacy" class="policy-link hover:text-green-400">Privacy Policy</a> | 
+                <a href="#terms" class="policy-link hover:text-green-400">Terms of Service</a>
+            </p>
         </div>
     </footer>
 
@@ -135,7 +185,14 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement.classList.contains('policy-section')) {
+                    targetElement.classList.remove('hidden');
+                }
+                
+                targetElement.scrollIntoView({
                     behavior: 'smooth'
                 });
             });
@@ -159,5 +216,4 @@
     </script>
 </body>
 </html>
-
 
